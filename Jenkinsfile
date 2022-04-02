@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Exit') {
+      steps {
+        echo 'Terminando proyecto'
+      }
+    }
+
   }
 }
