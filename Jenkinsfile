@@ -23,6 +23,7 @@ pipeline {
       steps {
         echo 'Se agrega stage al proyecto'
         sh 'ls -ltr'
+        sh './scripts/status_memory.sh'
       }
     }
 
