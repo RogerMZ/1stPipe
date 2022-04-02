@@ -22,6 +22,7 @@ pipeline {
     stage('Ultimo_mov') {
       steps {
         echo 'Se agrega stage al proyecto'
+        sh 'ls -ltr'
       }
     }
 
